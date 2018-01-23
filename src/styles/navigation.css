@@ -1,0 +1,62 @@
+:root
+{
+	--primary:#7a7ec7;
+}
+.navigation__Top
+	{
+		    background: #141d31;
+	}
+.navigation__Main
+	{
+		margin: 0;
+		padding: 0;
+	}
+.navigation__Top__Right
+	{
+		float: right;
+		    margin-top: 5px;
+    		margin-bottom: -10px;
+
+	}
+.navigation__Top__Right__Search
+		{
+			width: 201px;
+			height: 17px;
+			border-color: var(--primary);
+			color: var(--primary);
+			font-size: 11px;
+			display: unset;
+		}
+.navigation__Top__Right__Auth__Menu
+		{
+			    background: -webkit-gradient(linear, left top, left bottom, from(#39376a), to(#141626));
+			    background: linear-gradient(to bottom, #39376a, #141626);
+			margin-left: -170px;
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+.navigation__Top__Right__Auth__Menu__button__in
+			{
+				width: 100%;
+				width: 163px;
+				height: 33px;
+				margin-bottom: 5px;
+				border: 1px solid #4e4c99;
+   				 
+			}
+.navigation__Top__Right__Auth__Menu__button__Reg
+			{
+				width: 100%;
+				border: none;
+				width: 163px;
+				height: 33px;
+			}
+.navigation__Top__Right__Auth__Menu__button__Reg::after
+			{
+				    content: "";
+			  	position: absolute;
+			  	top: -2.5px;
+			  	width: 100%;
+			  	height: 2px;
+			  	
+			}

@@ -1,0 +1,65 @@
+:root
+{
+	--primary:#7a7ec7;
+}
+.navigation
+{
+	&__Top
+	{
+		    background: #141d31;
+	}
+	&__Main
+	{
+		margin: 0;
+		padding: 0;
+	}
+	&__Top__Right
+	{
+		float: right;
+		    margin-top: 5px;
+    		margin-bottom: -10px;
+	
+		&__Search
+		{
+			width: 201px;
+			height: 17px;
+			border-color: var(--primary);
+			color: var(--primary);
+			font-size: 11px;
+			display: unset;
+		}
+		&__Auth__Menu
+		{
+			    background: linear-gradient(to bottom, #39376a, #141626);
+			margin-left: -170px;
+			padding-left: 15px;
+			padding-right: 15px;
+			&__button__in
+			{
+				width: 100%;
+				width: 163px;
+				height: 33px;
+				margin-bottom: 5px;
+				border: 1px solid #4e4c99;
+   				 
+			}
+			&__button__Reg
+			{
+				width: 100%;
+				border: none;
+				width: 163px;
+				height: 33px;
+			}
+			&__button__Reg::after
+			{
+				    content: "";
+			  	position: absolute;
+			  	top: -2.5px;
+			  	width: 100%;
+			  	height: 2px;
+			  	
+			}
+		}
+
+	}
+}
