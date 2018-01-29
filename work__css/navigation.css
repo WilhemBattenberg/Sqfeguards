@@ -4,6 +4,7 @@
 }
 .navigation
 {
+	height: 102px;
 	&__Top
 	{
 		    background: #141d31;
@@ -36,19 +37,39 @@
 			padding-right: 15px;
 			&__button__in
 			{
+				background: transparent;
+				color: White;
 				width: 100%;
 				width: 163px;
 				height: 33px;
 				margin-bottom: 5px;
 				border: 1px solid #4e4c99;
-   				 
+				text-align: center;
+   				 &:hover
+   				 {
+   				 	font-size:16px!important;
+					background:transparent;
+					border: 1px solid #4e4c99;
+					color: White!important;
+   				 }
 			}
 			&__button__Reg
 			{
+				color: White;
+				text-align: center;
+				border: 1px solid #4e4c99!important;
+				background: transparent;
 				width: 100%;
 				border: none;
 				width: 163px;
 				height: 33px;
+					&:hover
+   				 {
+   				 	font-size:16px!important;
+					background:transparent;
+					border: 1px solid #4e4c99;
+					color: White!important;
+   				 }
 			}
 			&__button__Reg::after
 			{
@@ -62,4 +83,155 @@
 		}
 
 	}
+	&__Middle
+	{
+		background: linear-gradient(to bottom, #06060f 74%, #06060fc9 88%, transparent 100% );
+		width: 100%;
+		&__Menu
+		{
+			&__Left
+			{
+				display: flex;
+					justify-content: center;
+				&__Image
+				{
+
+					width: 360px;
+					height: 105px;
+				}
+			}
+			&__Right
+			{
+				&__List
+				{
+					height: 70px;
+					display: flex;
+					align-items:flex-end;
+					&__item
+					{
+						margin-left: 30px;
+						position: relative;
+						margin-left: 10px;
+						& .-d
+						{
+							&::after
+							{
+								position:relative;
+							}
+						}
+						&::after
+						{
+							content: "";
+   							 position: absolute;
+   							 pointer-events: none;
+   							 margin-left: 20px;
+							top: -1px;
+   							 width: 3px;
+   							 height: 100%;
+   							 background: white;
+   							 transform: skew(-32.5deg);
+						}
+						&__href
+						{
+							margin-left: 30px;
+							float: left;
+    					font-family: ralewayLight;
+    					cursor: pointer;
+    					color: white!important;
+    					position: relative;
+    					text-align: left;
+    					text-transform: uppercase;
+    					&:hover
+						{
+							color: #8186d4!important;
+							text-decoration: none;
+						}
+						}
+						    						
+    						&__dropmenu
+    						{
+    							margin-top: 20px;
+    							background: linear-gradient(to bottom, rgba(10, 11, 16, 0.86) 50%, #0000006b 100%); 
+    							text-align: center;
+    							padding-top: 20px;
+    							&__list
+    							{
+
+    								    position: relative;
+  										  width: 100%;
+  										  display: block;
+  										  text-align: center;
+  										  font-size: 12.5px;
+  										  font-family: ralewayLight;
+  										  height: 35px;
+  										  margin-bottom: 2.5px;
+
+    									&__href
+    									{
+    										color: white!important;
+    										text-transform: uppercase;
+    										&:hover
+    										{
+    											background:transparent!important;
+    											color: #8186d4!important;
+    										}
+    									}
+    							}
+    						}
+						
+					}
+				}
+
+			}
+		}
+	}
+}
+.dropdown:hover > .dropdown-menu { 
+    display: block; 
+} 
+.menu__left
+{
+	width: 100%;
+}
+.-left
+{
+	margin-left: -220px;
+}
+@media (max-width: 768px)
+{
+	.navigation__Middle__Menu__Right__List
+	{
+		height: unset;
+		margin-top: 10px;
+	}
+	.navigation__Middle__Menu__Right__List__item .dropdown
+	{
+		position: unset;
+	}
+	.navigation__Middle__Menu__Right
+	{
+		    display: block!important;
+    		margin: 0!important;
+    		align-items: baseline;
+
+	}
+}
+@media (max-width: 991px)
+{
+	.navigation__Middle__Menu__Right
+	{
+		    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: -40px;
+    margin-bottom: 30px;
+	}
+}
+body
+{
+	min-width: 300px;
+}
+.navigation__TOP__Menu__Left__Image
+{
+	width: 70%;
 }
