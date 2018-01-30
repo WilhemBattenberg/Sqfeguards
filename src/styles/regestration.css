@@ -1,0 +1,132 @@
+.regestration
+{
+	margin-top: 500px;
+}
+	.regestration__Left
+	{
+		padding-left: 20px;
+	}
+	.regestration__Left__image
+		{
+			
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+		}
+	.regestration__Left__header
+		{
+			color: White;
+			margin-left: 15px;
+		}
+	.regestration__Left__text
+		{
+			color: White;
+			margin-left: 30px;
+		}
+	.regestration__Left__text__abz
+			{
+				
+			}
+	.regestration__Right
+	{
+		float: right;
+	}
+	.regestration__Right__block
+		{
+			margin-top: 100px;
+			float: right;
+			width: 70%;
+
+		}
+	.regestration__Right__block__button
+			{
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				padding-top: 30px;
+			}
+	.regestration__Right__block__button__button
+				{
+					background: #7A7EC7;
+					border: none;
+					color: White;
+					text-transform: uppercase;
+					width: 250px;
+					height: 50px;
+				}
+	.regestration__Right__block__email
+			{
+				position: relative;
+				margin-bottom: 40px;
+			}
+	.regestration__Right__block__email__text
+				{
+			
+					background: transparent;
+					color: White;
+					border: 2px solid #7A7EC7;
+					-webkit-transform: skewX(-15deg);
+					        transform: skewX(-15deg);
+					width: 70%;
+					font-size: 30px;
+				}
+	.regestration__Right__block__double
+			{
+				margin-left: -15px;
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: flex;
+				margin-bottom: 30px;
+			}
+	.regestration__Right__block__double__right
+				{
+					width: 40%;
+				}
+	.regestration__Right__block__double__right__text
+					{
+					background: transparent;
+					color: White;
+					border: 2px solid #7A7EC7;
+					-webkit-transform: skewX(-15deg);
+					        transform: skewX(-15deg);
+					width: 80%;
+					font-size: 30px;
+					}
+	.regestration__Right__block__double__left
+				{
+
+					width: 30%;
+				}
+	.regestration__Right__block__double__left__text
+					{
+					background: transparent;
+					color: White;
+					border: 2px solid #7A7EC7;
+					-webkit-transform: skewX(-15deg);
+					        transform: skewX(-15deg);
+					width: 80%;
+					font-size: 30px;
+					margin-left: -40px;
+					}
+	.regestration__Right__block__text
+			{
+					margin-left: -30px;
+				    color: #737598;
+				    width: 70%;
+			}
+/*
+
+
+
+
+				
+				
+				
+
+			}
+
+
+
+
+
+*/

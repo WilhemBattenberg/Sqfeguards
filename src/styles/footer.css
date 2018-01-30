@@ -1,0 +1,135 @@
+.footer
+{
+	margin-top: 400px;
+}
+	.footer__block
+	{
+		    display: -webkit-box;
+		    display: -ms-flexbox;
+		    display: flex;
+    		-webkit-box-pack: center;
+    		    -ms-flex-pack: center;
+    		        justify-content: center;
+    		-webkit-box-orient: vertical;
+    		-webkit-box-direction: normal;
+    		    -ms-flex-direction: column;
+    		        flex-direction: column;
+    		-webkit-box-align: center;
+    		    -ms-flex-align: center;
+    		        align-items: center;
+	}
+	.footer__block__image
+		{
+			width: 200px;
+		}
+	.footer__block__header
+		{
+			color: White;
+			margin-bottom: 100px;
+		}
+	.footer__block__imageblock
+		{
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+		}
+	.footer__block__imageblock__img
+			{
+				padding: 10px;
+				width: 50px;
+				height: 50px;
+			}
+	.footer__down__line
+		{
+			border:2px Solid #4e4c99;
+			margin-bottom: 50px;
+		}
+	.footer__down__image
+		{
+			margin-bottom: 50px;
+		}
+	.footer__down__blocktext
+		{
+			margin-bottom: 40px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			    -ms-flex-pack: center;
+			        justify-content: center;
+		}
+	.footer__down__blocktext__list__li__href
+					{
+						color: White;
+						font-size: 20px;
+						text-transform: uppercase;
+						position: relative;
+						margin-left: 30px;
+							
+					}
+	.footer__down__blocktext__list__li__href:hover
+						{
+							text-decoration: none;
+							color: #4e4c99;
+						}
+	.footer__down__language
+	{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+
+	}
+	.footer__down__language__header
+		{
+			color: White;
+			font-size: 18px;
+		}
+	.footer__down__language__name
+		{
+			color: White;
+			margin-left: 10px;
+			font-size: 18px;
+		}
+	.footer__down__language__name__href
+			{
+				color: White;
+			}
+	.footer__down__language__name__href:hover
+				{
+					text-decoration: none;
+					color:White;
+				}
+	.footer__down__image
+		{
+			margin-top: 40px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-pack: center;
+			    -ms-flex-pack: center;
+			        justify-content: center;
+		}
+.fbiih
+{
+	width: 60px;
+}
+.fdblli:after
+		{
+		   content: "";
+   			position: absolute;
+   			pointer-events: none;
+   			margin-left: 20px;
+   			top: -1px;
+   			width: 3px;
+   			height: 100%;
+   			background: white;
+   			-webkit-transform: skew(-32.5deg);
+   			        transform: skew(-32.5deg);
+	}
+.n
+{
+	
+}

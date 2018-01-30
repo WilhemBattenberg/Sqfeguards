@@ -1,0 +1,127 @@
+.regestration
+{
+	margin-top: 500px;
+	&__Left
+	{
+		padding-left: 20px;
+		&__image
+		{
+			
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+		}
+		&__header
+		{
+			color: White;
+			margin-left: 15px;
+		}
+		&__text
+		{
+			color: White;
+			margin-left: 30px;
+			&__abz
+			{
+				
+			}
+		}
+	}
+	&__Right
+	{
+		float: right;
+		&__block
+		{
+			&__button
+			{
+				display: flex;
+				padding-top: 30px;
+
+				&__button
+				{
+					background: #7A7EC7;
+					border: none;
+					color: White;
+					text-transform: uppercase;
+					width: 250px;
+					height: 50px;
+				}
+			}
+			margin-top: 100px;
+			float: right;
+			width: 70%;
+			&__email
+			{
+				position: relative;
+				margin-bottom: 40px;
+
+				&__text
+				{
+			
+					background: transparent;
+					color: White;
+					border: 2px solid #7A7EC7;
+					transform: skewX(-15deg);
+					width: 70%;
+					font-size: 30px;
+				}
+			}
+			&__double
+			{
+				margin-left: -15px;
+				display: flex;
+				margin-bottom: 30px;
+				&__right
+				{
+					width: 40%;
+					&__text
+					{
+					background: transparent;
+					color: White;
+					border: 2px solid #7A7EC7;
+					transform: skewX(-15deg);
+					width: 80%;
+					font-size: 30px;
+					}
+				}
+				&__left
+				{
+
+					width: 30%;
+					&__text
+					{
+					background: transparent;
+					color: White;
+					border: 2px solid #7A7EC7;
+					transform: skewX(-15deg);
+					width: 80%;
+					font-size: 30px;
+					margin-left: -40px;
+					}
+				}
+			}
+			&__text
+			{
+					margin-left: -30px;
+				    color: #737598;
+				    width: 70%;
+			}
+
+		}
+	}
+}
+/*
+
+
+
+
+				
+				
+				
+
+			}
+
+
+
+
+
+*/
